@@ -25,6 +25,17 @@ A comparative machine learning and deep learning system for brain tumor detectio
 - React
 - Chart.js
 
+## 🔧 How to Run Locally
+
+### Backend
+
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate   # Windows
+pip install -r requirements.txt
+python app.py
+
 ## 📊 Results
 
 | Model | Accuracy |
