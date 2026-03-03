@@ -37,6 +37,14 @@ pip install -r requirements.txt
 python app.py
 ```
 
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
 ## 📊 Results
 
 | Model | Accuracy |
