@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  padding: 8px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+input[type="file"] {
+  margin-bottom: 15px;
+}
+
+.preview {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.predict-btn {
+  background-color: #2a5298;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.predict-btn:hover {
+  background-color: #1e3c72;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.tumor {
+  background-color: #ffe5e5;
+  color: #b00020;
+}
+
+.normal {
+  background-color: #e6ffed;
+  color: #007e33;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+}
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.comparison {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #2a5298;
+  color: white;
+}
+.dashboard-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 1100px;
+  max-width: 95%;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.chart-section {
+  width: 60%;
+}
+
+.table-section {
+  width: 35%;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.left-panel {
+  width: 48%;
+  text-align: center;
+}
+
+.right-panel {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-large {
+  width: 100%;
+  max-height: 320px;
+  object-fit: contain;
+  margin: 15px 0;
+  border-radius: 12px;
+}
+
+.result {
+  width: 100%;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
